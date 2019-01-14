@@ -1,0 +1,292 @@
+header{
+    background-color: #ffd031;
+    padding-top: 20px
+}
+header .sigle .sigle_img{
+    height: 50px
+}
+header .nav_bar > ul{
+    padding: 0px;
+    list-style: none;
+    padding-top: 20px
+}
+header .nav_bar .nav_bar_item{
+    display: inline-block;  
+    font-weight: 500;
+    font-size: 15px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #654d00;
+    margin-right: 5px;
+    border-radius: 100px;
+    cursor: pointer
+}
+header .nav_bar .nav_bar_item:nth-child(1){
+    background-color: #654d00;
+    color: white
+}
+header .nav_bar .nav_bar_item > div{
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px
+}
+header .nav_bar .nav_bar_item:hover{
+    background-color: #654d00;
+    color: white
+}
+header .social_media img{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
+}
+.article_grand_plant > div > img{
+    width: 100%;
+    height: 400px
+}
+.article_grand_plant > div{
+    position: relative;
+}
+.article_grand_plant .desc{
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+    background-color: white;
+    width: 350px;
+    border: #bebcbc 1px solid;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+.article_grand_plant .desc strong{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: black
+}
+.article_grand_plant .desc H2{
+    font-weight: bold;
+    font-size: 38px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: black;
+    margin-top: 7px
+}
+.article_grand_plant .desc p{
+    font-weight: 400;
+    font-size: 13px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: black;
+    margin-top: 7px
+}
+.article_grand_plant .desc em{
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #c4aa94;
+    margin-top: 7px
+}
+.article_grand_plant .desc input{
+    width: 200px;
+    height: 48px;
+    border-radius: 100px;
+    background-color: #ffd031;
+    color: #654d00;
+    font-weight: bold;
+    border: #654d00 1px solid;
+    margin-top: 25px
+}
+.lst_services_tabs .item{
+    height: 150px;
+    margin: 2px;
+    border: #a2a2a2 1px solid;
+    text-align: center
+}
+.lst_services_tabs > div > strong{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: black;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+.lst_services_tabs img{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    margin-top: 45px
+}
+.lst_services_tabs img + strong{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: gray;
+    display: block
+}
+.lst_services_tabs .item a{
+    text-decoration: underline
+}
+.search{
+    min-height: 100px;
+    background-color: #e6e6e6;
+    border-top: #acacac 2px solid;
+    padding-top: 25px;
+}
+.search input[type=text]{
+    width: 400px;
+    height: 48px;
+    border: #acacac 1px solid;
+    border-radius: 2px;
+    padding-left: 20px;
+}
+.search input[type=button]{
+    height: 48px;
+    background-color: #7ac143;
+    border: none;
+    border-bottom: #3d7413 2px solid;
+    color: white;
+}
+.lst_services .item img{
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+.lst_services > div > div > div{
+    display: inline-block
+}
+.lst_services .item{
+    border-top: #acacac 2px solid;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+.lst_services .item_impaire{
+    background-color: #e8e8e8
+}
+.lst_services .item strong{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: black;
+}
+.lst_services .item p{
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    margin-top: 20px
+}
+.lst_services .item a{
+    color: white;
+    background-color: orangered;
+    height: 38px;
+    padding: 10px;
+    border-radius: 2px
+}
+.form_subscribe form {
+    background-color: white;
+    width: 100%;
+    border: #aaacae 1px solid;
+    border-radius: 5px;
+    padding: 15px;
+    padding-top: 25px;
+}
+.form_subscribe form label{
+    color: grey
+}
+.form_subscribe form .form-control{
+    height: 48px
+}
+.form_subscribe form input[type=submit]{
+    background-color: green;
+    width: 100%;
+    height: 65px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.menu_icon{
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+    display: none
+}
+@media(min-width: 800px){
+    header{
+        height: 100px
+    }
+}
+@media(max-width: 800px){
+    header{
+        min-height: 50px;
+        padding-top: 0px
+    }
+    .nav_bar{
+        display: none
+    }
+    .social_media{
+        display: none
+    }
+    header .sigle .sigle_img{
+        margin-bottom: 5px
+    }
+    .menu_icon{
+        display: inline-block
+    }
+    .article_grand_plant > div > img{
+        height: 550px
+    }
+    .article_grand_plant .desc{
+        bottom: 2px;
+        right: 0;
+        left: 0;
+        width: 100%;
+    }
+    .search input[type=text]{
+        width: 100%
+    }
+    .lst_services_tabs .item{
+        margin: 0px
+    }
+    .search{
+        min-height: 100px;
+        
+    padding: 5px
+    }
+    .search input[type=button]{
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px
+    }
+    header .nav_bar .nav_bar_item{
+        width: 100%;
+        display: block;
+        margin-bottom: 20px
+    }
+    header .nav_bar{
+        padding-left: 50px
+    }
+}
